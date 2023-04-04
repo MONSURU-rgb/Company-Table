@@ -1,0 +1,409 @@
+@font-face {
+    font-family: "Switzer";
+    src: url("//cdn.fontshare.com/wf/JXG72O2TZZZ5GVUMRFHCQDLSBYPRIWXQ/ZP6MERMWLACGBGZHTVL3PGEM4LJZTZ57/O2INHB7RBA62NQZWIAP3RS5WRI4PR4T5.woff2")
+            format("woff2"),
+        url("//cdn.fontshare.com/wf/JXG72O2TZZZ5GVUMRFHCQDLSBYPRIWXQ/ZP6MERMWLACGBGZHTVL3PGEM4LJZTZ57/O2INHB7RBA62NQZWIAP3RS5WRI4PR4T5.woff")
+            format("woff"),
+        url("//cdn.fontshare.com/wf/JXG72O2TZZZ5GVUMRFHCQDLSBYPRIWXQ/ZP6MERMWLACGBGZHTVL3PGEM4LJZTZ57/O2INHB7RBA62NQZWIAP3RS5WRI4PR4T5.ttf")
+            format("truetype");
+    font-weight: 200;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Switzer";
+    src: url("//cdn.fontshare.com/wf/EW5HJEX6O4L64XUWQA2XU7Q6BZ3B4JA4/ZWUP4SQYHHMMSS5LFHFFBX6DXL7C3DTU/H5EOHLIZH5K7IZK6SGYJI75L4KV6FUO7.woff2")
+            format("woff2"),
+        url("//cdn.fontshare.com/wf/EW5HJEX6O4L64XUWQA2XU7Q6BZ3B4JA4/ZWUP4SQYHHMMSS5LFHFFBX6DXL7C3DTU/H5EOHLIZH5K7IZK6SGYJI75L4KV6FUO7.woff")
+            format("woff"),
+        url("//cdn.fontshare.com/wf/EW5HJEX6O4L64XUWQA2XU7Q6BZ3B4JA4/ZWUP4SQYHHMMSS5LFHFFBX6DXL7C3DTU/H5EOHLIZH5K7IZK6SGYJI75L4KV6FUO7.ttf")
+            format("truetype");
+    font-weight: 300;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Switzer";
+    src: url("//cdn.fontshare.com/wf/BLNB4FAQFNK56DWWNF7PMGTCOTZHOEII/ST3WKSSDMBK2MIQQO3MAVYWLF4FTOLFV/6IN5WOLRCYP4G4MOCOHOMXNON6Q7MDAR.woff2")
+            format("woff2"),
+        url("//cdn.fontshare.com/wf/BLNB4FAQFNK56DWWNF7PMGTCOTZHOEII/ST3WKSSDMBK2MIQQO3MAVYWLF4FTOLFV/6IN5WOLRCYP4G4MOCOHOMXNON6Q7MDAR.woff")
+            format("woff"),
+        url("//cdn.fontshare.com/wf/BLNB4FAQFNK56DWWNF7PMGTCOTZHOEII/ST3WKSSDMBK2MIQQO3MAVYWLF4FTOLFV/6IN5WOLRCYP4G4MOCOHOMXNON6Q7MDAR.ttf")
+            format("truetype");
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Switzer";
+    src: url("//cdn.fontshare.com/wf/OYB4CXKJQXKTNSLJMTDQOIVUL2V5EL7S/WYO2P7DQVV5RNXGMCUO2HL4RJP4VFUAS/6XPIMU23OJVRY676OG5YVJMWEHWICATX.woff2")
+            format("woff2"),
+        url("//cdn.fontshare.com/wf/OYB4CXKJQXKTNSLJMTDQOIVUL2V5EL7S/WYO2P7DQVV5RNXGMCUO2HL4RJP4VFUAS/6XPIMU23OJVRY676OG5YVJMWEHWICATX.woff")
+            format("woff"),
+        url("//cdn.fontshare.com/wf/OYB4CXKJQXKTNSLJMTDQOIVUL2V5EL7S/WYO2P7DQVV5RNXGMCUO2HL4RJP4VFUAS/6XPIMU23OJVRY676OG5YVJMWEHWICATX.ttf")
+            format("truetype");
+    font-weight: 500;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Switzer";
+    src: url("//cdn.fontshare.com/wf/5SZVFDB7V52TI6ULVC6J3WQZQCIZVDV5/ODYPSTCUDMKSTYIPTV4CLQ7URIK7XYBJ/YS3VPNVO4B3TOJMEXDGFZQ4TLZGGSRZC.woff2")
+            format("woff2"),
+        url("//cdn.fontshare.com/wf/5SZVFDB7V52TI6ULVC6J3WQZQCIZVDV5/ODYPSTCUDMKSTYIPTV4CLQ7URIK7XYBJ/YS3VPNVO4B3TOJMEXDGFZQ4TLZGGSRZC.woff")
+            format("woff"),
+        url("//cdn.fontshare.com/wf/5SZVFDB7V52TI6ULVC6J3WQZQCIZVDV5/ODYPSTCUDMKSTYIPTV4CLQ7URIK7XYBJ/YS3VPNVO4B3TOJMEXDGFZQ4TLZGGSRZC.ttf")
+            format("truetype");
+    font-weight: 600;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Switzer";
+    src: url("//cdn.fontshare.com/wf/HBNTRIISA5MEXGL5WPYI7CV2HIWTDV3Q/YDPDINVT673XLXNSTMLG4JNCZZMVVNPN/Y7SCNZJOT2MW5ADSGOFLDGH4TNL4JCQY.woff2")
+            format("woff2"),
+        url("//cdn.fontshare.com/wf/HBNTRIISA5MEXGL5WPYI7CV2HIWTDV3Q/YDPDINVT673XLXNSTMLG4JNCZZMVVNPN/Y7SCNZJOT2MW5ADSGOFLDGH4TNL4JCQY.woff")
+            format("woff"),
+        url("//cdn.fontshare.com/wf/HBNTRIISA5MEXGL5WPYI7CV2HIWTDV3Q/YDPDINVT673XLXNSTMLG4JNCZZMVVNPN/Y7SCNZJOT2MW5ADSGOFLDGH4TNL4JCQY.ttf")
+            format("truetype");
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Switzer";
+    src: url("//cdn.fontshare.com/wf/ZME55SZ3XN6FJ6WZ26BVFLFSAZ5I2VWW/YETVURK7HXO34ARWAMVG6MSPWALMBOUD/SMQAIKPHV4D6DU77XSDVYN543XEEYX6R.woff2")
+            format("woff2"),
+        url("//cdn.fontshare.com/wf/ZME55SZ3XN6FJ6WZ26BVFLFSAZ5I2VWW/YETVURK7HXO34ARWAMVG6MSPWALMBOUD/SMQAIKPHV4D6DU77XSDVYN543XEEYX6R.woff")
+            format("woff"),
+        url("//cdn.fontshare.com/wf/ZME55SZ3XN6FJ6WZ26BVFLFSAZ5I2VWW/YETVURK7HXO34ARWAMVG6MSPWALMBOUD/SMQAIKPHV4D6DU77XSDVYN543XEEYX6R.ttf")
+            format("truetype");
+    font-weight: 800;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Switzer";
+    src: url("//cdn.fontshare.com/wf/A54N3N7J5AY6YOPYJKLHF5VH7G7HSSUN/ERWIWIB434FMFHQFSSBD233EP3C62HOI/TOHQHMLIEIPKVF2JPM6SVKXFYGO5G2TJ.woff2")
+            format("woff2"),
+        url("//cdn.fontshare.com/wf/A54N3N7J5AY6YOPYJKLHF5VH7G7HSSUN/ERWIWIB434FMFHQFSSBD233EP3C62HOI/TOHQHMLIEIPKVF2JPM6SVKXFYGO5G2TJ.woff")
+            format("woff"),
+        url("//cdn.fontshare.com/wf/A54N3N7J5AY6YOPYJKLHF5VH7G7HSSUN/ERWIWIB434FMFHQFSSBD233EP3C62HOI/TOHQHMLIEIPKVF2JPM6SVKXFYGO5G2TJ.ttf")
+            format("truetype");
+    font-weight: 900;
+    font-display: swap;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Switzer";
+}
+
+.general-table {
+    padding-inline: 1rem;
+    padding: 1rem 1rem 4rem
+}
+
+.general-table a {
+    text-decoration: none;
+}
+
+.expense {
+     padding-bottom: 0.7rem;
+}   
+
+/* td {
+    border-bottom: 1px solid #EAEBF0;
+} */
+
+.date {
+    display: block;
+}
+
+table {
+    border-collapse: collapse;
+}
+  
+tr {
+    border-bottom: 1px solid #EAEBF0;
+}
+
+thead {
+    text-align: left;
+}
+
+tr td:nth-child(2) {
+    padding: 1.1rem 0.4rem;
+}
+
+tr h4 {
+    font-weight: 500;
+}
+.top-intro {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+    margin-bottom: 1.4rem;
+    /* padding: 0.3rem 2rem; */
+}
+
+.top-intro a {
+    text-decoration: none;
+}
+
+
+table {
+    width: 100%;
+    padding-bottom: 2rem;
+}
+
+tbody {
+    vertical-align: text-top;
+}
+tr th:last-child, tr td:last-child {
+    text-align: right;
+}
+
+.tr td:last-child {
+    color: rgb(67.8%, 84.7%, 90.2%);
+}
+
+td {
+    padding-block: 0.3rem;
+}
+
+.paid, .paid-1 {
+    border: 1px solid #cedcce;
+    background-color: #F0FAF0;
+    padding: 0.2rem 0.6rem;
+    border-radius: 6px;
+    color: #09ce68;
+    font-weight: 500;
+}
+
+.paid-1 {
+    display: none;
+}
+
+.cancelled {
+    border: 1px solid #cedcce;
+    padding: 0.2rem 0.6rem;
+    border-radius: 6px;
+    font-weight: 500;
+    background-color: #faf8f4;
+}
+
+.cancelled-1 {
+    background-color: #faf8f4;
+    color: black;
+}
+
+.later {
+    height: fit-content;
+}
+
+.pending {
+    border: 1px solid #cedcce;
+    padding: 0.2rem 0.6rem;
+    border-radius: 6px;
+    font-weight: 500;
+    background-color: #f5eddc;
+    color: #d59e2f;
+}
+
+.pending-1 {
+    color: #d59e2f;
+    background-color: #f5eddc;
+}
+
+
+.date-in-full {
+    display: none;
+}
+
+.amount-column-1 {
+    display: none;
+}
+
+.all-ikea-1 {
+    display: none;
+}
+
+.all-ikea-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.date-in-full-1 {
+    display: none;
+}
+
+.office-equiment {
+    display: none;
+}
+
+.amount-column-3 {
+    display: none;
+}
+
+.transaction {
+    display: none;
+}
+
+.heading-row th:first-child {
+    display: flex;
+}
+
+
+.heading-row th {
+    padding-bottom: 0.9rem;
+}
+
+
+.test {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+@media only screen and (min-width: 100px) and (max-width: 669px){
+    .date-column, .status-column, .date, .status, .heading-row th:first-child {
+        display: none;
+    }
+
+    .invoice-column {
+        text-align: right;
+    }
+
+    .paid-1 {
+        display: flex;
+        height: fit-content;
+        padding: 0.1rem 0.6rem;
+    }
+
+    .expense-column {
+        display: flex;
+        gap:0.3rem;
+        padding-block: 0.9rem;
+    }
+
+    .heading-row th:not(:nth-of-type(1)),  .heading-row th:not(:nth-of-type(2)) {
+        padding-bottom: 0.9rem;
+    }
+
+    .row-7, .row-8 {
+        display: none;
+    }
+
+    .date-in-full {
+        display: flex;
+    }
+
+    .all-ikea{
+        display: flex;
+        flex-direction: column;
+        gap: 0.4rem;
+    }
+
+    .test {
+        display: none;
+    }
+
+    .amount-column-1, .invoice-column {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .expense-value-for-row-2 {
+        display: none;
+    }
+
+   .all-ikea-1 {
+    display: flex;
+    gap: 0.3rem;
+   }
+
+}
+
+@media screen and (max-width: 399px) {
+    .invoice-column, .heading-row th {
+        display: none;
+    }
+
+    .amount-column-1 {
+        text-align: right;
+    }
+
+    .paid,
+    .paid-1, 
+    .pending,
+    .pending-1,
+    .cancelled-1,
+    .cancelled {
+        display: none;
+    }
+
+    .expense-value-for-row-2 {
+        display: flex;
+        flex-direction: column;
+        gap: 0.4rem;
+    }
+
+    .all-ikea-1 {
+        display: none;
+    }
+    .date-in-full-1 {
+        display: block;
+    }
+
+    .normal-list {
+        display: none;
+    }
+
+    .office-equiment {
+        display: flex;
+    }
+
+    .amount-column-1 {
+        display: none;
+    }
+
+    .amount-column-3 {
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+        gap: 0.3rem;
+    }
+
+    .dots {
+        display: none;
+    }
+
+    .transaction {
+        display: block;
+        /* padding-bottom: 0.8rem; */
+    }
+
+    .heading-row th:first-child {
+        display: flex;
+    }
+
+    .date {
+        display: none;
+    }
+}
