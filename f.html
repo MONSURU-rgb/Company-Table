@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="f.js"></script>
+</head>
+<body>
+    <h1>Things to Learn to Rule the World</h1>
+    <ul>
+            <li>Learn PHP</li>
+            <li>Learn Laravel</li>
+            <li>Learn JavaScript</li>
+            <li>Learn VueJS</li>
+            <li>Learn CLI</li>
+            <li>Learn Git</li>
+            <li>Learn Astral Projection</li>
+    </ul>
+
+    <script>
+
+
+   
+
+
+        // // Saves a NodeList of all list items on the page in listItems
+        //     var listItems = document.querySelectorAll('ul li');
+        //     console.log(listItems);
+        //     // Loops through each of the Node in the listItems NodeList and logs its content
+        //     for (var i = 0; i < listItems.length; i++) {
+        //       (function () {
+        //         console.log(this.innerHTML);
+        //       }).call(listItems[i])
+        //     }
+
+        let alphabet2 = ["a", "b", "c", "d", "e", "f", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
+        let hsyerm = ["f", "i", "k"];
+        let term = hsyerm.splice(-1);
+        console.log(term[0]);
+        const fin = alphabet2.indexOf(term[0]) + 1;
+        console.log(fin);
+        const two = alphabet2.slice(alphabet2.indexOf(hsyerm[0]), fin);
+        console.log(two);
+        const final = two.filter((item) => {if(hsyerm.indexOf(item) == -1) return item});
+        console.log(final);
+
+
+        function getMisssingLetter (args) {
+            let num = args.map((item)=> item.toLowerCase());
+            let splicedList = alphabet2.slice(alphabet2.indexOf(num[0]), (alphabet2.indexOf(num[0]) + num.length + 1));
+            console.log(splicedList)
+            const check = splicedList.filter((item) => {
+                if(num.indexOf(item) == -1) return item
+            });
+            return check.toString();       
+        }
+
+        console.log(getMisssingLetter(["b", "c", "e"]));
+        console.log(getMisssingLetter(["s", "u", "v"]));
+        console.log(getMisssingLetter(["i", "k", "l", "m"]));
+
+    const increment = (counter) => {
+            console.log(counter)
+            if(!counter) return;
+            counter--
+            return increment(counter)
+    };
+    console.log(increment(5))
+
+            // Output logs:
+            // Learn PHP
+            // Learn Laravel
+            // Learn JavaScript
+            // Learn VueJS
+            // Learn CLI
+            // Learn Git
+            // Learn Astral Projection
+
+        //Random Number Generator with Delay and Progress Indication:
+        // The goal of this program is to generate a random number after a delay of 3 seconds, and store the delay in a
+        // variable so can be modified. The program displays a message every second indicating the time remaining
+        // until the random number is generated and then outputs the generated number.
+
+        let delay = 3000;
+        let time = 1000;
+        let delayed = 2000;
+
+        // const timeDelayed = function () {
+        //     function delayMessage() {
+        //         for(let i = delay; i >= 0; i = delay - time) {
+        //             console.log(`The remaining time is ${(delay - i)/1000} seconds`);
+        //         };
+        //         setInterval(() => {
+        //                 console.log(Math.floor(Math.random() * 10))
+        //         }, delay)
+
+        //     };
+
+        //     return delayMessage();
+           
+        // };
+
+        // console.log(timeDelayed())
+
+
+        const letUsdelay = function(times) {
+
+            for (let i = 2; i >= 0; i--) {
+                
+            };
+
+            setTimeout(() => {
+                
+                if (!times) letUsdelay(--times)
+            //     (function() { for(let i = 2; i >= 0; i --) {
+            //     console.log(`The remaining time is ${i} seconds`);
+            // }})()
+              }, delay)
+
+ 
+        };
+
+        function times(countDown) {
+            console.log(`The remaining time is ${countDown} seconds`)
+            setTimeout(() => {
+                if (countDown !== 1) times(--countDown)
+                else console.log(Math.floor(Math.random() * 10));
+            }, time)
+        }
+
+        times(3)
+
+        function useDelay(count) {
+            const id = setInterval(() => {
+              --count ? times(3) : clearInterval(id)
+            }, delay + 1000)
+        }
+
+        useDelay(3);
+
+        // function useDelay() {
+        //     console.log(Math.floor(Math.random() * 10));
+        // }
+        
+        // let id = setInterval(useDelay, delay)
+
+        // RESULT
+        // The remaining time is 2 seconds
+        // The remaining time is 1 seconds
+        // The remaining time is 0 seconds
+        // 3
+        // The remaining time is 2 seconds
+        // The remaining time is 1 seconds
+        // The remaining time is 0 seconds
+        // 8
+        // The remaining time is 2 seconds
+        // The remaining time is 1 seconds
+        // The remaining time is 0 seconds
+        // 9
+
+        // The remaining time is 2 seconds
+        // The remaining time is 1 seconds
+        // The remaining time is 0 seconds
+        // 2
+
+
+
+        // letUsdelay(2)
+
+    
+    </script>
+    
+</body>
+</html>
